@@ -43,4 +43,4 @@ async def on_member_join(member):
     new_name = f"[{number}] {member.name}"
     await member.edit(nick=new_name)
 
-bot.run(os.getenv("MTQ5ODM5MTU0NDIyMTQwMTE4MA.GIZ8f-.ZiQQnl7ZORea_EQ2yH_obr68u4LUMWoFTZdtC0"))
+bot.run(os.getenv("MTQ5ODM5MTU0NDIyMTQwMTE4MA.GMt3bs.FfP6W7XGQ45YR9G-S-Mx6YYzCyyFPOIEzDUOS8"))
