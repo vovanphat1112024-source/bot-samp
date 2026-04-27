@@ -39,7 +39,7 @@ async def on_member_join(member):
         user_data[uid] = number
         save_data()
 
-    new_name = f"TV-{number} | {member.name}"
+    new_name = f"[{number}] {member.name}"
     await member.edit(nick=new_name)
 
 bot.run(os.getenv("TOKEN"))
